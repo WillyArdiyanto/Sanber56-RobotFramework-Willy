@@ -15,16 +15,16 @@ Input Password
     Input Text                       locator=${password_text}         text=${password}
 
 
-Press Sign In 
+Press SignIn On Button On Login Page
     Click Element                    locator=${signin_btn}
 
 Login With Valid Credential
     [Arguments]                ${username}   ${password}
     Verify Home Page Appears
-    Press Sign In 
+    Press SignIn Button On Home Page
     Input Username        username=${username}
     Input Password     password=${password}
-    Press Sign In 
+    Press SignIn On Button On Login Page 
 
 Invalid Login
     Wait Until Page Contains               text=${fail_login}

@@ -1,0 +1,31 @@
+oneway_btn: '//android.support.v7.app.ActionBar.Tab[@content-desc="One Way"]'
+roundtrip_btn: '//android.support.v7.app.ActionBar.Tab[@content-desc="Round Trip"]'
+date_btn: '//android.widget.Button[@resource-id="android:id/button1"]'
+book_btn: '//android.widget.Button[@resource-id="com.example.myapplication:id/book_flight"]'
+price_btn: '//android.widget.Button[@resource-id="com.example.myapplication:id/price5"]'
+confrim_btn: '//android.widget.Button[@resource-id="com.example.myapplication:id/confirm_order"]'
+
+from_city: '//*[@resource-id="com.example.myapplication:id/spinnerFrom"]'
+to_city: '//*[@resource-id="com.example.myapplication:id/spinnerTo"]'
+
+class: '//*[@resource-id="com.example.myapplication:id/spinnerClass"]'
+economy: '//*[@resource-id="android:id/text1" and @text="Economy"]'
+first: '//*[@resource-id="android:id/text1" and @text="First"]'
+bussines: '//*[@resource-id="android:id/text1" and @text="Business"]'
+
+start_date: '//*[@resource-id="com.example.myapplication:id/textStartDate"]'
+end_date: '//*[@resource-id="com.example.myapplication:id/textEndDate"]'
+august_first: '//android.view.View[@content-desc="01 August 2019"]'
+
+august_seconds: '//android.view.View[@content-desc="02 August 2019"]'
+flight_radioBtn: '//android.widget.RadioButton[@resource-id="com.example.myapplication:id/radioButtonFlight"]'
+flightHotel_radioBtn: '//android.widget.RadioButton[@resource-id="com.example.myapplication:id/radioButtonFlightHotel"]'
+
+day_checkBox: '//android.widget.CheckBox[@resource-id="com.example.myapplication:id/checkBoxDay"]'
+
+newyork: '//*[@resource-id="android:id/text1" and @text="New York"]'
+chicago: '//*[@resource-id="android:id/text1" and @text="Chicago"]'
+toronto: '//*[@resource-id="android:id/text1" and @text="Toronto"]'
+london: '//*[@resource-id="android:id/text1" and @text="London"]'
+paris: '//*[@resource-id="android:id/text1" and @text="Paris"]'
+otawa: '//*[@resource-id="android:id/text1" and @text="Ottawa"]'

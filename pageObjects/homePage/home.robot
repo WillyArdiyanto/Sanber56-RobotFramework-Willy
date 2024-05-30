@@ -1,4 +1,5 @@
 *** Settings ***
+Documentation        All about home page
 Resource        ../base.robot
 Variables       home_locator.yaml
 
@@ -7,7 +8,7 @@ Variables       home_locator.yaml
 Verify Home Page Appears
     Wait Until Element Is Visible    ${home_img}
 
-Click Sign In Button On Home Page
+Press SignIn Button On Home Page
     Click Element    ${signin_btn}
 
 Verify Home Page
