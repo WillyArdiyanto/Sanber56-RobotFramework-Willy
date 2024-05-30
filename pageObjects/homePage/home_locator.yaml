@@ -1,0 +1,4 @@
+signin_btn: '//android.widget.Button[@resource-id="com.example.myapplication:id/login"]'
+home_img: '//android.widget.ImageView[@resource-id="com.example.myapplication:id/imageView4"]'
+
+sucess_login: "com.example.myapplication:id/textView"
